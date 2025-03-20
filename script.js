@@ -1,6 +1,6 @@
 // Dates for the countdown
 const separationDate = new Date('March 19, 2025 13:00:00').getTime();
-const reunionDate = new Date('April 11, 2025 11:00:00').getTime();
+const reunionDate = new Date('April 4, 2025 18:00:00').getTime();
 const totalTimeApart = reunionDate - separationDate;
 
 // Three.js setup
