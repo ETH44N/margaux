@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown to Reunion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="three-container"></div>
+    
+    <div id="countdown-container" class="hidden">
+        <h1>Countdown to Reunion</h1>
+        
+        <div id="countdown">
+            <div class="countdown-item">
+                <span id="days">00</span>
+                <span class="label">Days</span>
+            </div>
+            <div class="countdown-item">
+                <span id="hours">00</span>
+                <span class="label">Hours</span>
+            </div>
+            <div class="countdown-item">
+                <span id="minutes">00</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="countdown-item">
+                <span id="seconds">00</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+        
+        <div id="progress-container">
+            <div id="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <div id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
